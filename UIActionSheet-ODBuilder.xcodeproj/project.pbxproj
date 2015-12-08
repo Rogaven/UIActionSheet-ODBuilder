@@ -15,7 +15,7 @@
 		FA2C30201C007E1300BD3CE5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/UIActionSheet-ODBuilder";
+			dstPath = "include/UIActionSheet+ODBuilder";
 			dstSubfolderSpec = 16;
 			files = (
 				FAE74F6F1C0F9356000D6DD0 /* UIActionSheet+ODBuilder.h in CopyFiles */,

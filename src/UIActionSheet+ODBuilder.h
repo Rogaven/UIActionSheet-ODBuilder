@@ -33,7 +33,7 @@ typedef void(^uiactionsheetitem_block_t)(void);
 @end
 
 
-@interface UIActionSheet (ODBuilder)
+@interface UIActionSheet (ODXUI_Builder)
 + (nonnull instancetype)od_actionSheetWithTitle:(nullable NSString *)title actionItems:(nonnull NSArray<UIActionSheetItem *> *)items
                               cancelButtonTitle:(nonnull NSString *)cancelButtonTitle;
 

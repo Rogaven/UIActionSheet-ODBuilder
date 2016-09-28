@@ -22,7 +22,7 @@
 //
 
 #import "UIActionSheet+ODBuilder.h"
-#import <ODX.Blocks/UIActionSheet+ODBlocks.h>
+#import <ODBlocks/UIActionSheet+ODBlocks.h>
 
 @implementation UIActionSheetItem
 
@@ -35,7 +35,7 @@
 
 @end
 
-@implementation UIActionSheet (ODBuilder)
+@implementation UIActionSheet (ODXUI_Builder)
 
 + (nonnull instancetype)od_actionSheetWithTitle:(nullable NSString *)title actionItems:(nonnull NSArray<UIActionSheetItem *> *)items
                               cancelButtonTitle:(nonnull NSString *)cancelButtonTitle {
